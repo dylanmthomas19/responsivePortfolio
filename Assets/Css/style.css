@@ -119,3 +119,49 @@ p::first-letter{
     left: 375px;
     top: 250px;
 }
+
+@media screen and (max-width: 980px){
+    #rpg{
+        float: left;
+    }
+
+    #shooter{
+        float: left;
+    }
+    #iconic{
+        float: left;
+    }
+    #strategy{
+        float: left;
+    }
+}
+@media screen and (max-width: 768px){
+    .content{
+        width:60%
+    }
+    #rpg{
+        float: left;
+    }
+
+    #shooter{
+        float: left;
+    }
+    #iconic{
+        float: right;
+    }
+    #strategy{
+        float: right;
+    }
+    .socialPortfolio{
+        width: 40%
+        padding: 5px 10px 0px 10px;
+        background-color: beige;
+        float: right;
+    }
+
+}
+@media screen and (max-width: 640px){
+    header{
+        position: static;
+    }
+}
